@@ -4,6 +4,11 @@ externalproject "zlibvc"
     kind "SharedLib"
     language "C"
 
+    defines
+    {
+        ZLIB_WINAPI
+    }
+    
     postbuildcommands
     {
         ("{COPY} C:/Windows/System32" )
