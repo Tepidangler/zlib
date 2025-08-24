@@ -1,0 +1,1210 @@
+ zlibwapi
+
+ Timestamp is 683fabad (Tue Jun  3 22:13:01 2025)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00011ed0H .text$mn                CODE
+ 0001:00011ed0 00000036H .text$mn$00             CODE
+ 0001:00011f06 00000092H .text$x                 CODE
+ 0002:00000000 00000200H .idata$5                DATA
+ 0002:00000200 00000038H .00cfg                  DATA
+ 0002:00000238 00000008H .CRT$XCA                DATA
+ 0002:00000240 00000008H .CRT$XCZ                DATA
+ 0002:00000248 00000008H .CRT$XIA                DATA
+ 0002:00000250 00000008H .CRT$XIZ                DATA
+ 0002:00000258 00000008H .CRT$XPA                DATA
+ 0002:00000260 00000008H .CRT$XPZ                DATA
+ 0002:00000268 00000008H .CRT$XTA                DATA
+ 0002:00000270 00000010H .CRT$XTZ                DATA
+ 0002:00000278 00000000H .gehcont$y              DATA
+ 0002:00000278 00000000H .gfids$y                DATA
+ 0002:00000280 00004d80H .rdata                  DATA
+ 0002:00005000 00000000H .rdata$CastGuardVftablesA DATA
+ 0002:00005000 00000000H .rdata$CastGuardVftablesC DATA
+ 0002:00005000 00000058H .rdata$voltmd           DATA
+ 0002:00005058 000002e8H .rdata$zzzdbg           DATA
+ 0002:00005340 00000008H .rtc$IAA                DATA
+ 0002:00005348 00000008H .rtc$IZZ                DATA
+ 0002:00005350 00000008H .rtc$TAA                DATA
+ 0002:00005358 00000008H .rtc$TZZ                DATA
+ 0002:00005360 000012e0H .xdata                  DATA
+ 0002:00006640 00000d64H .edata                  DATA
+ 0002:000073a4 000000a0H .idata$2                DATA
+ 0002:00007444 00000014H .idata$3                DATA
+ 0002:00007458 00000200H .idata$4                DATA
+ 0002:00007658 00000476H .idata$6                DATA
+ 0003:00000000 000000c0H .data                   DATA
+ 0003:000000c0 00000090H .bss                    DATA
+ 0004:00000000 000010d4H .pdata                  DATA
+ 0005:00000000 00000060H .rsrc$01                DATA
+ 0005:00000060 00000338H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_delayload_iat 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_delayload_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __hybrid_image_info_bitfield 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000100       __guard_flags              0000000000000100     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       adler32_z                  0000000180001000 f   adler32.obj
+ 0001:000003d0       adler32                    00000001800013d0 f   adler32.obj
+ 0001:000004c0       adler32_combine            00000001800014c0 f   adler32.obj
+ 0001:000004d0       compress2                  00000001800014d0 f   compress.obj
+ 0001:000005d0       compress                   00000001800015d0 f   compress.obj
+ 0001:000005f0       compressBound              00000001800015f0 f   compress.obj
+ 0001:000006a0       get_crc_table              00000001800016a0 f   crc32.obj
+ 0001:000006f0       crc32_z                    00000001800016f0 f   crc32.obj
+ 0001:00000a90       crc32                      0000000180001a90 f   crc32.obj
+ 0001:00000aa0       crc32_combine64            0000000180001aa0 f   crc32.obj
+ 0001:00000ad0       crc32_combine              0000000180001ad0 f   crc32.obj
+ 0001:00000ae0       crc32_combine_gen64        0000000180001ae0 f   crc32.obj
+ 0001:00000af0       crc32_combine_gen          0000000180001af0 f   crc32.obj
+ 0001:00000b00       crc32_combine_op           0000000180001b00 f   crc32.obj
+ 0001:00000e70       deflateInit_               0000000180001e70 f   deflate.obj
+ 0001:00000eb0       deflateInit2_              0000000180001eb0 f   deflate.obj
+ 0001:000011b0       deflateSetDictionary       00000001800021b0 f   deflate.obj
+ 0001:000013b0       deflateGetDictionary       00000001800023b0 f   deflate.obj
+ 0001:00001430       deflateResetKeep           0000000180002430 f   deflate.obj
+ 0001:00001580       deflateReset               0000000180002580 f   deflate.obj
+ 0001:000015b0       deflateSetHeader           00000001800025b0 f   deflate.obj
+ 0001:000015f0       deflatePending             00000001800025f0 f   deflate.obj
+ 0001:00001640       deflateUsed                0000000180002640 f   deflate.obj
+ 0001:00001680       deflatePrime               0000000180002680 f   deflate.obj
+ 0001:00001740       deflateParams              0000000180002740 f   deflate.obj
+ 0001:000018c0       deflateTune                00000001800028c0 f   deflate.obj
+ 0001:00001910       deflateBound               0000000180002910 f   deflate.obj
+ 0001:00001b00       deflate                    0000000180002b00 f   deflate.obj
+ 0001:000024b0       deflateEnd                 00000001800034b0 f   deflate.obj
+ 0001:000025a0       deflateCopy                00000001800035a0 f   deflate.obj
+ 0001:00003cd0       gzclose                    0000000180004cd0 f   gzclose.obj
+ 0001:00003cf0       __local_stdio_printf_options 0000000180004cf0 f i gzlib.obj
+ 0001:00003d00       snprintf                   0000000180004d00 f i gzlib.obj
+ 0001:000040f0       gzopen                     00000001800050f0 f   gzlib.obj
+ 0001:00004100       gzdopen                    0000000180005100 f   gzlib.obj
+ 0001:00004190       gzopen_w                   0000000180005190 f   gzlib.obj
+ 0001:000041a0       gzbuffer                   00000001800051a0 f   gzlib.obj
+ 0001:000041e0       gzrewind                   00000001800051e0 f   gzlib.obj
+ 0001:00004240       gzseek64                   0000000180005240 f   gzlib.obj
+ 0001:00004390       gzseek                     0000000180005390 f   gzlib.obj
+ 0001:000043a0       gztell64                   00000001800053a0 f   gzlib.obj
+ 0001:000043e0       gztell                     00000001800053e0 f   gzlib.obj
+ 0001:000043f0       gzoffset64                 00000001800053f0 f   gzlib.obj
+ 0001:00004450       gzoffset                   0000000180005450 f   gzlib.obj
+ 0001:00004460       gzeof                      0000000180005460 f   gzlib.obj
+ 0001:00004480       gzerror                    0000000180005480 f   gzlib.obj
+ 0001:000044d0       gzclearerr                 00000001800054d0 f   gzlib.obj
+ 0001:00004510       gz_error                   0000000180005510 f   gzlib.obj
+ 0001:00004cb0       gzread                     0000000180005cb0 f   gzread.obj
+ 0001:00004d20       gzfread                    0000000180005d20 f   gzread.obj
+ 0001:00004da0       gzgetc                     0000000180005da0 f   gzread.obj
+ 0001:00004e20       gzgetc_                    0000000180005e20 f   gzread.obj
+ 0001:00004e30       gzungetc                   0000000180005e30 f   gzread.obj
+ 0001:00004f70       gzgets                     0000000180005f70 f   gzread.obj
+ 0001:000050a0       gzdirect                   00000001800060a0 f   gzread.obj
+ 0001:000050e0       gzclose_r                  00000001800060e0 f   gzread.obj
+ 0001:00005680       gzwrite                    0000000180006680 f   gzwrite.obj
+ 0001:000056d0       gzfwrite                   00000001800066d0 f   gzwrite.obj
+ 0001:00005750       gzputc                     0000000180006750 f   gzwrite.obj
+ 0001:00005820       gzputs                     0000000180006820 f   gzwrite.obj
+ 0001:000058b0       gzvprintf                  00000001800068b0 f   gzwrite.obj
+ 0001:00005a40       gzprintf                   0000000180006a40 f   gzwrite.obj
+ 0001:00005a70       gzflush                    0000000180006a70 f   gzwrite.obj
+ 0001:00005ae0       gzsetparams                0000000180006ae0 f   gzwrite.obj
+ 0001:00005bf0       gzclose_w                  0000000180006bf0 f   gzwrite.obj
+ 0001:00005cc0       inflateBackInit_           0000000180006cc0 f   infback.obj
+ 0001:00005e10       inflateBack                0000000180006e10 f   infback.obj
+ 0001:00006d70       inflateBackEnd             0000000180007d70 f   infback.obj
+ 0001:00006dc0       inflate_fast               0000000180007dc0 f   inffast.obj
+ 0001:000072e0       inflateResetKeep           00000001800082e0 f   inflate.obj
+ 0001:00007380       inflateReset               0000000180008380 f   inflate.obj
+ 0001:000073b0       inflateReset2              00000001800083b0 f   inflate.obj
+ 0001:00007450       inflateInit2_              0000000180008450 f   inflate.obj
+ 0001:00007550       inflateInit_               0000000180008550 f   inflate.obj
+ 0001:00007560       inflatePrime               0000000180008560 f   inflate.obj
+ 0001:00007720       inflate                    0000000180008720 f   inflate.obj
+ 0001:00008f40       inflateEnd                 0000000180009f40 f   inflate.obj
+ 0001:00008fb0       inflateGetDictionary       0000000180009fb0 f   inflate.obj
+ 0001:00009040       inflateSetDictionary       000000018000a040 f   inflate.obj
+ 0001:00009100       inflateGetHeader           000000018000a100 f   inflate.obj
+ 0001:000091b0       inflateSync                000000018000a1b0 f   inflate.obj
+ 0001:00009300       inflateSyncPoint           000000018000a300 f   inflate.obj
+ 0001:00009340       inflateCopy                000000018000a340 f   inflate.obj
+ 0001:00009500       inflateUndermine           000000018000a500 f   inflate.obj
+ 0001:00009530       inflateValidate            000000018000a530 f   inflate.obj
+ 0001:00009570       inflateMark                000000018000a570 f   inflate.obj
+ 0001:000095e0       inflateCodesUsed           000000018000a5e0 f   inflate.obj
+ 0001:00009620       inflate_table              000000018000a620 f   inftrees.obj
+ 0001:00009bc0       call_zopen64               000000018000abc0 f   ioapi.obj
+ 0001:00009be0       call_zseek64               000000018000abe0 f   ioapi.obj
+ 0001:00009c10       call_ztell64               000000018000ac10 f   ioapi.obj
+ 0001:00009c50       fill_zlib_filefunc64_32_def_from_filefunc32 000000018000ac50 f   ioapi.obj
+ 0001:00009db0       fill_fopen64_filefunc      000000018000adb0 f   ioapi.obj
+ 0001:00009ee0       win32_open64_file_func     000000018000aee0 f   iowin32.obj
+ 0001:00009ee0       win32_open64_file_funcA    000000018000aee0 f   iowin32.obj
+ 0001:00009ee0       win32_open_file_func       000000018000aee0 f   iowin32.obj
+ 0001:00009f60       win32_open64_file_funcW    000000018000af60 f   iowin32.obj
+ 0001:00009fe0       win32_read_file_func       000000018000afe0 f   iowin32.obj
+ 0001:0000a050       win32_write_file_func      000000018000b050 f   iowin32.obj
+ 0001:0000a130       win32_tell_file_func       000000018000b130 f   iowin32.obj
+ 0001:0000a190       win32_tell64_file_func     000000018000b190 f   iowin32.obj
+ 0001:0000a1f0       win32_seek_file_func       000000018000b1f0 f   iowin32.obj
+ 0001:0000a270       win32_seek64_file_func     000000018000b270 f   iowin32.obj
+ 0001:0000a2f0       win32_close_file_func      000000018000b2f0 f   iowin32.obj
+ 0001:0000a330       win32_error_file_func      000000018000b330 f   iowin32.obj
+ 0001:0000a340       fill_win32_filefunc        000000018000b340 f   iowin32.obj
+ 0001:0000a3a0       fill_win32_filefunc64      000000018000b3a0 f   iowin32.obj
+ 0001:0000a3a0       fill_win32_filefunc64A     000000018000b3a0 f   iowin32.obj
+ 0001:0000a400       fill_win32_filefunc64W     000000018000b400 f   iowin32.obj
+ 0001:0000a860       _tr_init                   000000018000b860 f   trees.obj
+ 0001:0000b7e0       _tr_stored_block           000000018000c7e0 f   trees.obj
+ 0001:0000b8e0       _tr_flush_bits             000000018000c8e0 f   trees.obj
+ 0001:0000b8f0       _tr_align                  000000018000c8f0 f   trees.obj
+ 0001:0000be70       _tr_flush_block            000000018000ce70 f   trees.obj
+ 0001:0000c090       uncompress2                000000018000d090 f   uncompr.obj
+ 0001:0000c1f0       uncompress                 000000018000d1f0 f   uncompr.obj
+ 0001:0000c530       unzStringFileNameCompare   000000018000d530 f   unzip.obj
+ 0001:0000cd70       unzOpen2                   000000018000dd70 f   unzip.obj
+ 0001:0000cdc0       unzOpen2_64                000000018000ddc0 f   unzip.obj
+ 0001:0000ce20       unzOpen                    000000018000de20 f   unzip.obj
+ 0001:0000ce30       unzOpen64                  000000018000de30 f   unzip.obj
+ 0001:0000ce40       unzClose                   000000018000de40 f   unzip.obj
+ 0001:0000ce90       unzGetGlobalInfo64         000000018000de90 f   unzip.obj
+ 0001:0000ceb0       unzGetGlobalInfo           000000018000deb0 f   unzip.obj
+ 0001:0000d4d0       unzGetCurrentFileInfo64    000000018000e4d0 f   unzip.obj
+ 0001:0000d520       unzGetCurrentFileInfo      000000018000e520 f   unzip.obj
+ 0001:0000d620       unzGoToFirstFile           000000018000e620 f   unzip.obj
+ 0001:0000d6a0       unzGoToNextFile            000000018000e6a0 f   unzip.obj
+ 0001:0000d760       unzLocateFile              000000018000e760 f   unzip.obj
+ 0001:0000d950       unzGetFilePos64            000000018000e950 f   unzip.obj
+ 0001:0000d990       unzGetFilePos              000000018000e990 f   unzip.obj
+ 0001:0000d9c0       unzGoToFilePos64           000000018000e9c0 f   unzip.obj
+ 0001:0000da40       unzGoToFilePos             000000018000ea40 f   unzip.obj
+ 0001:0000dcb0       unzOpenCurrentFile3        000000018000ecb0 f   unzip.obj
+ 0001:0000e020       unzOpenCurrentFile         000000018000f020 f   unzip.obj
+ 0001:0000e040       unzOpenCurrentFilePassword 000000018000f040 f   unzip.obj
+ 0001:0000e060       unzOpenCurrentFile2        000000018000f060 f   unzip.obj
+ 0001:0000e080       unzGetCurrentFileZStreamPos64 000000018000f080 f   unzip.obj
+ 0001:0000e0a0       unzReadCurrentFile         000000018000f0a0 f   unzip.obj
+ 0001:0000e3c0       unztell                    000000018000f3c0 f   unzip.obj
+ 0001:0000e3e0       unztell64                  000000018000f3e0 f   unzip.obj
+ 0001:0000e410       unzeof                     000000018000f410 f   unzip.obj
+ 0001:0000e440       unzGetLocalExtrafield      000000018000f440 f   unzip.obj
+ 0001:0000e530       unzCloseCurrentFile        000000018000f530 f   unzip.obj
+ 0001:0000e5e0       unzGetGlobalComment        000000018000f5e0 f   unzip.obj
+ 0001:0000e690       set_free                   000000018000f690 f   zip.obj
+ 0001:0000e690       zcfree                     000000018000f690 f   zutil.obj
+ 0001:0000e6a0       set_sweep                  000000018000f6a0 f   zip.obj
+ 0001:0000e700       set_end                    000000018000f700 f   zip.obj
+ 0001:0000f5f0       zipOpen3                   00000001800105f0 f   zip.obj
+ 0001:0000f7b0       zipOpen2                   00000001800107b0 f   zip.obj
+ 0001:0000f800       zipOpen2_64                0000000180010800 f   zip.obj
+ 0001:0000f860       zipOpen                    0000000180010860 f   zip.obj
+ 0001:0000f860       zipOpen64                  0000000180010860 f   zip.obj
+ 0001:0000faf0       zipOpenNewFileInZip4_64    0000000180010af0 f   zip.obj
+ 0001:00010130       zipOpenNewFileInZip3       0000000180011130 f   zip.obj
+ 0001:000101e0       zipOpenNewFileInZip3_64    00000001800111e0 f   zip.obj
+ 0001:000102a0       zipOpenNewFileInZip2       00000001800112a0 f   zip.obj
+ 0001:00010330       zipOpenNewFileInZip2_64    0000000180011330 f   zip.obj
+ 0001:000103d0       zipOpenNewFileInZip64      00000001800113d0 f   zip.obj
+ 0001:00010460       zipOpenNewFileInZip        0000000180011460 f   zip.obj
+ 0001:000105d0       zipWriteInFileInZip        00000001800115d0 f   zip.obj
+ 0001:00010740       zipCloseFileInZipRaw       0000000180011740 f   zip.obj
+ 0001:00010750       zipCloseFileInZipRaw64     0000000180011750 f   zip.obj
+ 0001:00010c60       zipCloseFileInZip          0000000180011c60 f   zip.obj
+ 0001:00011010       zipClose                   0000000180012010 f   zip.obj
+ 0001:000111a0       zlibVersion                00000001800121a0 f   zutil.obj
+ 0001:000111b0       zlibCompileFlags           00000001800121b0 f   zutil.obj
+ 0001:000111c0       zError                     00000001800121c0 f   zutil.obj
+ 0001:000111f0       zcalloc                    00000001800121f0 f   zutil.obj
+ 0001:00011514       _DllMainCRTStartup         0000000180012514 f   MSVCRT:dll_dllmain.obj
+ 0001:00011554       __security_init_cookie     0000000180012554 f   MSVCRT:gs_support.obj
+ 0001:00011604       DllMain                    0000000180012604 f   MSVCRT:dll_dllmain_stub.obj
+ 0001:00011628       ?__scrt_initialize_type_info@@YAXXZ 0000000180012628 f   MSVCRT:tncleanup.obj
+ 0001:00011638       ?__scrt_uninitialize_type_info@@YAXXZ 0000000180012638 f   MSVCRT:tncleanup.obj
+ 0001:00011644       __local_stdio_scanf_options 0000000180012644 f i MSVCRT:default_local_stdio_options.obj
+ 0001:0001164c       __scrt_initialize_default_local_stdio_options 000000018001264c f   MSVCRT:default_local_stdio_options.obj
+ 0001:00011668       __scrt_acquire_startup_lock 0000000180012668 f   MSVCRT:utility.obj
+ 0001:000116a4       __scrt_dllmain_after_initialize_c 00000001800126a4 f   MSVCRT:utility.obj
+ 0001:000116d8       __scrt_dllmain_before_initialize_c 00000001800126d8 f   MSVCRT:utility.obj
+ 0001:000116f0       __scrt_dllmain_crt_thread_attach 00000001800126f0 f   MSVCRT:utility.obj
+ 0001:00011718       __scrt_dllmain_crt_thread_detach 0000000180012718 f   MSVCRT:utility.obj
+ 0001:00011730       __scrt_dllmain_exception_filter 0000000180012730 f   MSVCRT:utility.obj
+ 0001:00011790       __scrt_dllmain_uninitialize_c 0000000180012790 f   MSVCRT:utility.obj
+ 0001:000117c0       __scrt_dllmain_uninitialize_critical 00000001800127c0 f   MSVCRT:utility.obj
+ 0001:000117d4       __scrt_initialize_crt      00000001800127d4 f   MSVCRT:utility.obj
+ 0001:00011810       __scrt_initialize_onexit_tables 0000000180012810 f   MSVCRT:utility.obj
+ 0001:0001189c       __scrt_is_nonwritable_in_current_image 000000018001289c f   MSVCRT:utility.obj
+ 0001:00011934       __scrt_release_startup_lock 0000000180012934 f   MSVCRT:utility.obj
+ 0001:00011958       __scrt_uninitialize_crt    0000000180012958 f   MSVCRT:utility.obj
+ 0001:00011984       __scrt_get_dyn_tls_init_callback 0000000180012984 f   MSVCRT:dyn_tls_init.obj
+ 0001:0001198c       __crt_debugger_hook        000000018001298c f   MSVCRT:utility_desktop.obj
+ 0001:00011998       __scrt_fastfail            0000000180012998 f   MSVCRT:utility_desktop.obj
+ 0001:00011ae4       _RTC_Initialize            0000000180012ae4 f   MSVCRT:initsect.obj
+ 0001:00011b20       _RTC_Terminate             0000000180012b20 f   MSVCRT:initsect.obj
+ 0001:00011b5c       _guard_check_icall_nop     0000000180012b5c f i MSVCRT:guard_support.obj
+ 0001:00011b60       __isa_available_init       0000000180012b60 f   MSVCRT:cpu_disp.obj
+ 0001:00011df8       _get_startup_argv_mode     0000000180012df8 f   MSVCRT:argv_mode.obj
+ 0001:00011e00       __scrt_is_ucrt_dll_in_use  0000000180012e00 f   MSVCRT:ucrt_detection.obj
+ 0001:00011e10       __C_specific_handler       0000000180012e10 f   vcruntime:VCRUNTIME140.dll
+ 0001:00011e16       __std_type_info_destroy_list 0000000180012e16 f   vcruntime:VCRUNTIME140.dll
+ 0001:00011e1c       memset                     0000000180012e1c f   vcruntime:VCRUNTIME140.dll
+ 0001:00011e22       _initterm                  0000000180012e22 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00011e28       _initterm_e                0000000180012e28 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00011e2e       _seh_filter_dll            0000000180012e2e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00011e34       _configure_narrow_argv     0000000180012e34 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00011e3a       _initialize_narrow_environment 0000000180012e3a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00011e40       _initialize_onexit_table   0000000180012e40 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00011e46       _execute_onexit_table      0000000180012e46 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00011e4c       _cexit                     0000000180012e4c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00011e54       __acrt_initialize          0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e54       __acrt_thread_attach       0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e54       __acrt_thread_detach       0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e54       __acrt_uninitialize        0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e54       __acrt_uninitialize_critical 0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e54       __scrt_stub_for_acrt_initialize 0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e54       __scrt_stub_for_acrt_thread_attach 0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e54       __scrt_stub_for_acrt_thread_detach 0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e54       __scrt_stub_for_acrt_uninitialize 0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e54       __scrt_stub_for_acrt_uninitialize_critical 0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e54       __vcrt_initialize          0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e54       __vcrt_thread_attach       0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e54       __vcrt_thread_detach       0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e54       __vcrt_uninitialize        0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e54       __vcrt_uninitialize_critical 0000000180012e54 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e58       __scrt_stub_for_is_c_termination_complete 0000000180012e58 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e58       _is_c_termination_complete 0000000180012e58 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011e70       __chkstk                   0000000180012e70 f   MSVCRT:chkstk.obj
+ 0001:00011e70       _alloca_probe              0000000180012e70 f   MSVCRT:chkstk.obj
+ 0001:00011ebe       memchr                     0000000180012ebe f   vcruntime:VCRUNTIME140.dll
+ 0001:00011ec4       memcpy                     0000000180012ec4 f   vcruntime:VCRUNTIME140.dll
+ 0001:00011eca       memmove                    0000000180012eca f   vcruntime:VCRUNTIME140.dll
+ 0001:00011ee0       _guard_dispatch_icall_nop  0000000180012ee0 f   MSVCRT:guard_dispatch.obj
+ 0001:00011f00       _guard_xfg_dispatch_icall_nop 0000000180012f00 f   MSVCRT:guard_xfg_dispatch.obj
+ 0002:00000000       __imp_ReadFile             0000000180013000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_WriteFile            0000000180013008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_SetFilePointer       0000000180013010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_CreateFileW          0000000180013018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_GetLastError         0000000180013020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_CreateFileA          0000000180013028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_CloseHandle          0000000180013030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_GetCurrentProcessId  0000000180013038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_GetCurrentThreadId   0000000180013040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_GetSystemTimeAsFileTime 0000000180013048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_DisableThreadLibraryCalls 0000000180013050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_InitializeSListHead  0000000180013058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_RtlCaptureContext    0000000180013060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_RtlLookupFunctionEntry 0000000180013068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_RtlVirtualUnwind     0000000180013070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_QueryPerformanceCounter 0000000180013078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_IsProcessorFeaturePresent 0000000180013080     kernel32:KERNEL32.dll
+ 0002:00000088       __imp_SetUnhandledExceptionFilter 0000000180013088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp_UnhandledExceptionFilter 0000000180013090     kernel32:KERNEL32.dll
+ 0002:00000098       __imp_IsDebuggerPresent    0000000180013098     kernel32:KERNEL32.dll
+ 0002:000000a0       \177KERNEL32_NULL_THUNK_DATA 00000001800130a0     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp___std_type_info_destroy_list 00000001800130a8     vcruntime:VCRUNTIME140.dll
+ 0002:000000b0       __imp___C_specific_handler 00000001800130b0     vcruntime:VCRUNTIME140.dll
+ 0002:000000b8       __imp_memset               00000001800130b8     vcruntime:VCRUNTIME140.dll
+ 0002:000000c0       __imp_memcpy               00000001800130c0     vcruntime:VCRUNTIME140.dll
+ 0002:000000c8       __imp_memchr               00000001800130c8     vcruntime:VCRUNTIME140.dll
+ 0002:000000d0       __imp_memmove              00000001800130d0     vcruntime:VCRUNTIME140.dll
+ 0002:000000d8       \177VCRUNTIME140_NULL_THUNK_DATA 00000001800130d8     vcruntime:VCRUNTIME140.dll
+ 0002:000000e0       __imp_wcstombs             00000001800130e0     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0002:000000e8       \177api-ms-win-crt-convert-l1-1-0_NULL_THUNK_DATA 00000001800130e8     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0002:000000f0       __imp_free                 00000001800130f0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000f8       __imp_malloc               00000001800130f8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000100       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 0000000180013100     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000108       __imp__initterm            0000000180013108     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000110       __imp__seh_filter_dll      0000000180013110     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000118       __imp__configure_narrow_argv 0000000180013118     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000120       __imp__initialize_onexit_table 0000000180013120     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000128       __imp__execute_onexit_table 0000000180013128     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000130       __imp__cexit               0000000180013130     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000138       __imp__errno               0000000180013138     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000140       __imp_strerror             0000000180013140     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000148       __imp__initialize_narrow_environment 0000000180013148     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000150       __imp__initterm_e          0000000180013150     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000158       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 0000000180013158     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000160       __imp__close               0000000180013160     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000160       __imp_close                0000000180013160     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000168       __imp__write               0000000180013168     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000168       __imp_write                0000000180013168     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000170       __imp_ferror               0000000180013170     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000178       __imp__lseeki64            0000000180013178     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000180       __imp__wopen               0000000180013180     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000188       __imp_fread                0000000180013188     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000190       __imp__ftelli64            0000000180013190     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000198       __imp_fwrite               0000000180013198     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001a0       __imp_fclose               00000001800131a0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001a8       __imp_fopen                00000001800131a8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001b0       __imp__fseeki64            00000001800131b0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001b8       __imp__read                00000001800131b8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001b8       __imp_read                 00000001800131b8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001c0       __imp__open                00000001800131c0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001c0       __imp_open                 00000001800131c0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001c8       __imp___stdio_common_vsprintf 00000001800131c8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001d0       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001800131d0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001d8       __imp__time64              00000001800131d8     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:000001e0       \177api-ms-win-crt-time-l1-1-0_NULL_THUNK_DATA 00000001800131e0     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:000001e8       __imp_srand                00000001800131e8     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:000001f0       __imp_rand                 00000001800131f0     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:000001f8       \177api-ms-win-crt-utility-l1-1-0_NULL_THUNK_DATA 00000001800131f8     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00000200       __guard_check_icall_fptr   0000000180013200     MSVCRT:guard_support.obj
+ 0002:00000208       __guard_xfg_check_icall_fptr 0000000180013208     MSVCRT:guard_support.obj
+ 0002:00000210       __guard_dispatch_icall_fptr 0000000180013210     MSVCRT:guard_support.obj
+ 0002:00000218       __guard_xfg_dispatch_icall_fptr 0000000180013218     MSVCRT:guard_support.obj
+ 0002:00000220       __guard_xfg_table_dispatch_icall_fptr 0000000180013220     MSVCRT:guard_support.obj
+ 0002:00000228       __castguard_check_failure_os_handled_fptr 0000000180013228     MSVCRT:guard_support.obj
+ 0002:00000230       __guard_memcpy_fptr        0000000180013230     vcruntime:softmemtag.obj
+ 0002:00000238       __xc_a                     0000000180013238     MSVCRT:initializers.obj
+ 0002:00000240       __xc_z                     0000000180013240     MSVCRT:initializers.obj
+ 0002:00000248       __xi_a                     0000000180013248     MSVCRT:initializers.obj
+ 0002:00000250       __xi_z                     0000000180013250     MSVCRT:initializers.obj
+ 0002:00000258       __xp_a                     0000000180013258     MSVCRT:initializers.obj
+ 0002:00000260       __xp_z                     0000000180013260     MSVCRT:initializers.obj
+ 0002:00000268       __xt_a                     0000000180013268     MSVCRT:initializers.obj
+ 0002:00000270       __xt_z                     0000000180013270     MSVCRT:initializers.obj
+ 0002:00000280       _pDefaultRawDllMain        0000000180013280     MSVCRT:dll_dllmain.obj
+ 0002:00000280       _pRawDllMain               0000000180013280     MSVCRT:dll_dllmain.obj
+ 0002:00000290       __xmm@ffffffffffffffffffffffffffffffff 0000000180013290     MSVCRT:utility.obj
+ 0002:000002a0       ??_C@_0P@CNPFHDLN@1?43?41?41?9motley@ 00000001800132a0     compress.obj
+ 0002:00003e40       _length_code               0000000180016e40     trees.obj
+ 0002:00003f40       _dist_code                 0000000180016f40     trees.obj
+ 0002:00004910       unz_copyright              0000000180017910     unzip.obj
+ 0002:00004970       z_errmsg                   0000000180017970     zutil.obj
+ 0002:000049c0       ??_C@_02DKCKIIND@?$CFs@    00000001800179c0     gzlib.obj
+ 0002:000049c8       ??_C@_07EBNKNFJN@?$DMfd?3?$CFd?$DO@ 00000001800179c8     gzlib.obj
+ 0002:000049d0       ??_C@_0O@BNNCBLEN@out?5of?5memory@ 00000001800179d0     gzlib.obj
+ 0002:000049de       ??_C@_00CNPNBAHC@@         00000001800179de     gzlib.obj
+ 0002:000049e0       ??_C@_02LMMGGCAJ@?3?5@     00000001800179e0     gzlib.obj
+ 0002:000049e4       ??_C@_06DIJPEION@?$CFs?$CFs?$CFs@ 00000001800179e4     gzlib.obj
+ 0002:000049f0       ??_C@_0BH@CFIIDOJD@unexpected?5end?5of?5file@ 00000001800179f0     gzread.obj
+ 0002:00004a08       ??_C@_0CH@CPOLIEKA@internal?5error?3?5inflate?5stream?5@ 0000000180017a08     gzread.obj
+ 0002:00004a30       ??_C@_0BG@HCKBMIHF@compressed?5data?5error@ 0000000180017a30     gzread.obj
+ 0002:00004a48       ??_C@_0BP@HLDABFKK@request?5does?5not?5fit?5in?5an?5int@ 0000000180017a48     gzread.obj
+ 0002:00004a68       ??_C@_0CB@EGGJDMIK@request?5does?5not?5fit?5in?5a?5size_@ 0000000180017a68     gzread.obj
+ 0002:00004a90       ??_C@_0BP@IIKIGMCC@out?5of?5room?5to?5push?5characters@ 0000000180017a90     gzread.obj
+ 0002:00004ab0       ??_C@_0CH@DEEGAHIB@internal?5error?3?5deflate?5stream?5@ 0000000180017ab0     gzwrite.obj
+ 0002:00004ad8       ??_C@_0CF@MLPJFDMM@requested?5length?5does?5not?5fit?5i@ 0000000180017ad8     gzwrite.obj
+ 0002:00004b00       ??_C@_0CC@ENDIFONJ@string?5length?5does?5not?5fit?5in?5i@ 0000000180017b00     gzwrite.obj
+ 0002:00004b28       ??_C@_0BD@PJCBIDD@invalid?5block?5type@ 0000000180017b28     infback.obj
+ 0002:00004b40       ??_C@_0BN@LGAADGOK@invalid?5stored?5block?5lengths@ 0000000180017b40     infback.obj
+ 0002:00004b60       ??_C@_0CE@GMIGFPBB@too?5many?5length?5or?5distance?5sym@ 0000000180017b60     infback.obj
+ 0002:00004b88       ??_C@_0BJ@HDEPPGOH@invalid?5code?5lengths?5set@ 0000000180017b88     infback.obj
+ 0002:00004ba8       ??_C@_0BK@BMMPFBBH@invalid?5bit?5length?5repeat@ 0000000180017ba8     infback.obj
+ 0002:00004bc8       ??_C@_0CF@DGDMADCD@invalid?5code?5?9?9?5missing?5end?9of?9@ 0000000180017bc8     infback.obj
+ 0002:00004bf0       ??_C@_0BM@IIMGAINC@invalid?5literal?1lengths?5set@ 0000000180017bf0     infback.obj
+ 0002:00004c10       ??_C@_0BG@GMDFCBGP@invalid?5distances?5set@ 0000000180017c10     infback.obj
+ 0002:00004c28       ??_C@_0BM@FFFLPBBC@invalid?5literal?1length?5code@ 0000000180017c28     infback.obj
+ 0002:00004c48       ??_C@_0BG@LBKINIKP@invalid?5distance?5code@ 0000000180017c48     infback.obj
+ 0002:00004c60       ??_C@_0BO@ECPMAOGG@invalid?5distance?5too?5far?5back@ 0000000180017c60     infback.obj
+ 0002:00004c80       ??_C@_0BH@LIBMMIGA@incorrect?5header?5check@ 0000000180017c80     inflate.obj
+ 0002:00004c98       ??_C@_0BL@IHKGDAEE@unknown?5compression?5method@ 0000000180017c98     inflate.obj
+ 0002:00004cb8       ??_C@_0BE@EMOGCLGO@invalid?5window?5size@ 0000000180017cb8     inflate.obj
+ 0002:00004cd0       ??_C@_0BJ@BLBBCOMO@unknown?5header?5flags?5set@ 0000000180017cd0     inflate.obj
+ 0002:00004cf0       ??_C@_0BE@GONKLEPM@header?5crc?5mismatch@ 0000000180017cf0     inflate.obj
+ 0002:00004d08       ??_C@_0BF@MEIGEHBE@incorrect?5data?5check@ 0000000180017d08     inflate.obj
+ 0002:00004d20       ??_C@_0BH@FGKKJGOC@incorrect?5length?5check@ 0000000180017d20     inflate.obj
+ 0002:00004d38       ??_C@_02JDPG@rb@           0000000180017d38     ioapi.obj
+ 0002:00004d3c       ??_C@_03HMFOOINA@r?$CLb@   0000000180017d3c     ioapi.obj
+ 0002:00004d40       ??_C@_02GMLFBBN@wb@        0000000180017d40     ioapi.obj
+ 0002:00004d44       ??_C@_01JOAMLHOP@?9@       0000000180017d44     zip.obj
+ 0002:00004d48       ??_C@_0BA@MOKMMFOD@need?5dictionary@ 0000000180017d48     zutil.obj
+ 0002:00004d58       ??_C@_0L@FNAOCBOG@stream?5end@ 0000000180017d58     zutil.obj
+ 0002:00004d68       ??_C@_0L@KIJFAKBJ@file?5error@ 0000000180017d68     zutil.obj
+ 0002:00004d78       ??_C@_0N@MKKNPMJD@stream?5error@ 0000000180017d78     zutil.obj
+ 0002:00004d88       ??_C@_0L@HAHMBNLP@data?5error@ 0000000180017d88     zutil.obj
+ 0002:00004d98       ??_C@_0BE@OGGJBMCE@insufficient?5memory@ 0000000180017d98     zutil.obj
+ 0002:00004db0       ??_C@_0N@DFPGLBGC@buffer?5error@ 0000000180017db0     zutil.obj
+ 0002:00004dc0       ??_C@_0BF@CJFPCCEG@incompatible?5version@ 0000000180017dc0     zutil.obj
+ 0002:00004de0       _load_config_used          0000000180017de0     MSVCRT:loadcfg.obj
+ 0002:00005000       __volatile_metadata        0000000180018000     <linker-defined>
+ 0002:00005340       __rtc_iaa                  0000000180018340     MSVCRT:initsect.obj
+ 0002:00005348       __rtc_izz                  0000000180018348     MSVCRT:initsect.obj
+ 0002:00005350       __rtc_taa                  0000000180018350     MSVCRT:initsect.obj
+ 0002:00005358       __rtc_tzz                  0000000180018358     MSVCRT:initsect.obj
+ 0002:000073a4       __IMPORT_DESCRIPTOR_KERNEL32 000000018001a3a4     kernel32:KERNEL32.dll
+ 0002:000073b8       __IMPORT_DESCRIPTOR_VCRUNTIME140 000000018001a3b8     vcruntime:VCRUNTIME140.dll
+ 0002:000073cc       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 000000018001a3cc     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000073e0       __IMPORT_DESCRIPTOR_api-ms-win-crt-convert-l1-1-0 000000018001a3e0     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0002:000073f4       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 000000018001a3f4     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00007408       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 000000018001a408     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000741c       __IMPORT_DESCRIPTOR_api-ms-win-crt-time-l1-1-0 000000018001a41c     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:00007430       __IMPORT_DESCRIPTOR_api-ms-win-crt-utility-l1-1-0 000000018001a430     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00007444       __NULL_IMPORT_DESCRIPTOR   000000018001a444     kernel32:KERNEL32.dll
+ 0003:00000000       __scrt_native_dllmain_reason 000000018001b000     MSVCRT:utility.obj
+ 0003:00000040       __security_cookie          000000018001b040     MSVCRT:gs_cookie.obj
+ 0003:00000080       __security_cookie_complement 000000018001b080     MSVCRT:gs_cookie.obj
+ 0003:00000088       __isa_inverted             000000018001b088     MSVCRT:cpu_disp.obj
+ 0003:00000090       __isa_available            000000018001b090     MSVCRT:cpu_disp.obj
+ 0003:00000094       __isa_enabled              000000018001b094     MSVCRT:cpu_disp.obj
+ 0003:00000098       __memset_fast_string_threshold 000000018001b098     MSVCRT:cpu_disp.obj
+ 0003:000000a0       __memset_nt_threshold      000000018001b0a0     MSVCRT:cpu_disp.obj
+ 0003:000000b0       __scrt_ucrt_dll_is_in_use  000000018001b0b0     MSVCRT:ucrt_stubs.obj
+ 0003:000000d0       ?__type_info_root_node@@3U__type_info_node@@A 000000018001b0d0     MSVCRT:tncleanup.obj
+ 0003:000000e0       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 000000018001b0e0     MSVCRT:default_local_stdio_options.obj
+ 0003:000000e8       __scrt_current_native_startup_state 000000018001b0e8     MSVCRT:utility.obj
+ 0003:000000f0       __scrt_native_startup_lock 000000018001b0f0     MSVCRT:utility.obj
+ 0003:00000130       __scrt_debugger_hook_flag  000000018001b130     MSVCRT:utility_desktop.obj
+ 0003:00000134       __avx10_version            000000018001b134     MSVCRT:cpu_disp.obj
+ 0003:00000138       __favor                    000000018001b138     MSVCRT:cpu_disp.obj
+ 0003:00000140       __dyn_tls_init_callback    000000018001b140     <common>
+ 0003:00000148       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 000000018001b148     <common>
+
+ entry point at        0001:00011514
+
+ Static symbols
+
+ 0000:fffe0000       .debug$S                   0000000180000000     zlibwapi.exp
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe0000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0001:000003e0       adler32_combine_           00000001800013e0 f   adler32.obj
+ 0001:00000610       multmodp                   0000000180001610 f   crc32.obj
+ 0001:00000650       x2nmodp                    0000000180001650 f   crc32.obj
+ 0001:000006b0       crc_word                   00000001800016b0 f   crc32.obj
+ 0001:00000b20       slide_hash                 0000000180001b20 f   deflate.obj
+ 0001:00000ba0       read_buf                   0000000180001ba0 f   deflate.obj
+ 0001:00000c40       fill_window                0000000180001c40 f   deflate.obj
+ 0001:00001150       deflateStateCheck          0000000180002150 f   deflate.obj
+ 0001:000014d0       lm_init                    00000001800024d0 f   deflate.obj
+ 0001:00001a50       putShortMSB                0000000180002a50 f   deflate.obj
+ 0001:00001a80       flush_pending              0000000180002a80 f   deflate.obj
+ 0001:000027b0       longest_match              00000001800037b0 f   deflate.obj
+ 0001:00002970       deflate_stored             0000000180003970 f   deflate.obj
+ 0001:00002dc0       deflate_fast               0000000180003dc0 f   deflate.obj
+ 0001:00003240       deflate_slow               0000000180004240 f   deflate.obj
+ 0001:00003790       deflate_rle                0000000180004790 f   deflate.obj
+ 0001:00003ae0       deflate_huff               0000000180004ae0 f   deflate.obj
+ 0001:00003d60       gz_reset                   0000000180004d60 f   gzlib.obj
+ 0001:00003db0       gz_open                    0000000180004db0 f   gzlib.obj
+ 0001:00004068       $LN58                      0000000180005068     gzlib.obj
+ 0001:00004094       $LN57                      0000000180005094     gzlib.obj
+ 0001:00004620       gz_load                    0000000180005620 f   gzread.obj
+ 0001:000046d0       gz_avail                   00000001800056d0 f   gzread.obj
+ 0001:00004760       gz_look                    0000000180005760 f   gzread.obj
+ 0001:00004900       gz_decomp                  0000000180005900 f   gzread.obj
+ 0001:00004a20       gz_fetch                   0000000180005a20 f   gzread.obj
+ 0001:00004ad0       gz_skip                    0000000180005ad0 f   gzread.obj
+ 0001:00004b50       gz_read                    0000000180005b50 f   gzread.obj
+ 0001:00005190       gz_init                    0000000180006190 f   gzwrite.obj
+ 0001:000052c0       gz_comp                    00000001800062c0 f   gzwrite.obj
+ 0001:00005490       gz_zero                    0000000180006490 f   gzwrite.obj
+ 0001:00005540       gz_write                   0000000180006540 f   gzwrite.obj
+ 0001:00005de0       fixedtables                0000000180006de0 f   infback.obj
+ 0001:00006d24       $LN511                     0000000180007d24     infback.obj
+ 0001:000072a0       inflateStateCheck          00000001800082a0 f   inflate.obj
+ 0001:000075d0       fixedtables                00000001800085d0 f   inflate.obj
+ 0001:00007600       updatewindow               0000000180008600 f   inflate.obj
+ 0001:00008eb8       $LN881                     0000000180009eb8     inflate.obj
+ 0001:00009140       syncsearch                 000000018000a140 f   inflate.obj
+ 0001:00009ca0       fopen64_file_func          000000018000aca0 f   ioapi.obj
+ 0001:00009cf0       fread_file_func            000000018000acf0 f   ioapi.obj
+ 0001:00009d10       fwrite_file_func           000000018000ad10 f   ioapi.obj
+ 0001:00009d30       ftell64_file_func          000000018000ad30 f   ioapi.obj
+ 0001:00009d40       fseek64_file_func          000000018000ad40 f   ioapi.obj
+ 0001:00009d90       fclose_file_func           000000018000ad90 f   ioapi.obj
+ 0001:00009da0       ferror_file_func           000000018000ada0 f   ioapi.obj
+ 0001:00009e10       win32_translate_open_mode  000000018000ae10 f   iowin32.obj
+ 0001:00009e70       win32_build_iowin          000000018000ae70 f   iowin32.obj
+ 0001:0000a0c0       MySetFilePointerEx         000000018000b0c0 f   iowin32.obj
+ 0001:0000a460       bi_reverse                 000000018000b460 f   trees.obj
+ 0001:0000a480       bi_flush                   000000018000b480 f   trees.obj
+ 0001:0000a500       bi_windup                  000000018000b500 f   trees.obj
+ 0001:0000a570       gen_codes                  000000018000b570 f   trees.obj
+ 0001:0000a690       init_block                 000000018000b690 f   trees.obj
+ 0001:0000a8d0       pqdownheap                 000000018000b8d0 f   trees.obj
+ 0001:0000a9c0       gen_bitlen                 000000018000b9c0 f   trees.obj
+ 0001:0000abe0       build_tree                 000000018000bbe0 f   trees.obj
+ 0001:0000ae50       scan_tree                  000000018000be50 f   trees.obj
+ 0001:0000af70       send_tree                  000000018000bf70 f   trees.obj
+ 0001:0000b4a0       build_bl_tree              000000018000c4a0 f   trees.obj
+ 0001:0000b570       send_all_trees             000000018000c570 f   trees.obj
+ 0001:0000b9d0       compress_block             000000018000c9d0 f   trees.obj
+ 0001:0000bdf0       detect_data_type           000000018000cdf0 f   trees.obj
+ 0001:0000c210       decrypt_byte               000000018000d210 f   unzip.obj
+ 0001:0000c210       decrypt_byte               000000018000d210 f   zip.obj
+ 0001:0000c230       update_keys                000000018000d230 f   unzip.obj
+ 0001:0000c230       update_keys                000000018000d230 f   zip.obj
+ 0001:0000c280       init_keys                  000000018000d280 f   unzip.obj
+ 0001:0000c280       init_keys                  000000018000d280 f   zip.obj
+ 0001:0000c2f0       unz64local_getShort        000000018000d2f0 f   unzip.obj
+ 0001:0000c370       unz64local_getLong         000000018000d370 f   unzip.obj
+ 0001:0000c400       unz64local_getLong64       000000018000d400 f   unzip.obj
+ 0001:0000c4d0       strcmpcasenosensitive_internal 000000018000d4d0 f   unzip.obj
+ 0001:0000c570       unz64local_SearchCentralDir 000000018000d570 f   unzip.obj
+ 0001:0000c6d0       unz64local_SearchCentralDir64 000000018000d6d0 f   unzip.obj
+ 0001:0000c8f0       unzOpenInternal            000000018000d8f0 f   unzip.obj
+ 0001:0000ced0       unz64local_DosDateToTmuDate 000000018000ded0 f   unzip.obj
+ 0001:0000cf30       unz64local_GetCurrentFileInfoInternal 000000018000df30 f   unzip.obj
+ 0001:0000da80       unz64local_CheckCurrentFileCoherencyHeader 000000018000ea80 f   unzip.obj
+ 0001:0000e790       crypthead                  000000018000f790 f   zip.obj
+ 0001:0000e8e0       allocate_new_datablock     000000018000f8e0 f   zip.obj
+ 0001:0000e910       free_datablock             000000018000f910 f   zip.obj
+ 0001:0000e940       init_linkedlist            000000018000f940 f   zip.obj
+ 0001:0000e950       free_linkedlist            000000018000f950 f   zip.obj
+ 0001:0000e970       add_data_in_datablock      000000018000f970 f   zip.obj
+ 0001:0000ea50       zip64local_putValue        000000018000fa50 f   zip.obj
+ 0001:0000ead0       zip64local_putValue_inmemory 000000018000fad0 f   zip.obj
+ 0001:0000eb10       zip64local_TmzDateToDosDate 000000018000fb10 f   zip.obj
+ 0001:0000eb60       zip64local_getByte         000000018000fb60 f   zip.obj
+ 0001:0000ebd0       zip64local_getShort        000000018000fbd0 f   zip.obj
+ 0001:0000ec50       zip64local_getLong         000000018000fc50 f   zip.obj
+ 0001:0000ed20       zip64local_getLong64       000000018000fd20 f   zip.obj
+ 0001:0000eea0       zip64local_SearchCentralDir 000000018000fea0 f   zip.obj
+ 0001:0000f010       zip64local_SearchCentralDir64 0000000180010010 f   zip.obj
+ 0001:0000f230       LoadCentralDirectoryRecord 0000000180010230 f   zip.obj
+ 0001:0000f870       Write_LocalFileHeader      0000000180010870 f   zip.obj
+ 0001:000104f0       zip64FlushWriteBuffer      00000001800114f0 f   zip.obj
+ 0001:00010c70       Write_Zip64EndOfCentralDirectoryLocator 0000000180011c70 f   zip.obj
+ 0001:00010d00       Write_Zip64EndOfCentralDirectoryRecord 0000000180011d00 f   zip.obj
+ 0001:00010e50       Write_EndOfCentralDirectoryRecord 0000000180011e50 f   zip.obj
+ 0001:00010f80       Write_GlobalComment        0000000180011f80 f   zip.obj
+ 0001:00011200       ?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180012200 f   MSVCRT:dll_dllmain.obj
+ 0001:00011250       ?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 0000000180012250 f   MSVCRT:dll_dllmain.obj
+ 0001:00011368       ?dllmain_crt_process_detach@@YAH_N@Z 0000000180012368 f   MSVCRT:dll_dllmain.obj
+ 0001:000113ec       ?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 00000001800123ec f   MSVCRT:dll_dllmain.obj
+ 0001:00011e60       $$000000                   0000000180012e60     MSVCRT:chkstk.obj
+ 0001:00011ed0       $$000000                   0000000180012ed0     MSVCRT:guard_dispatch.obj
+ 0001:00011ef0       $$000000                   0000000180012ef0     MSVCRT:guard_xfg_dispatch.obj
+ 0001:00011f06       ?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 0000000180012f06 f   MSVCRT:dll_dllmain.obj
+ 0001:00011f1d       ?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180012f1d f   MSVCRT:dll_dllmain.obj
+ 0001:00011f36       ?fin$1@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180012f36 f   MSVCRT:dll_dllmain.obj
+ 0001:00011f4a       ?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 0000000180012f4a f   MSVCRT:dll_dllmain.obj
+ 0001:00011f80       __scrt_is_nonwritable_in_current_image$filt$0 0000000180012f80 f   MSVCRT:utility.obj
+ 0002:000002b0       crc_table                  00000001800132b0     crc32.obj
+ 0002:000006b0       crc_big_table              00000001800136b0     crc32.obj
+ 0002:00000ab0       crc_braid_table            0000000180013ab0     crc32.obj
+ 0002:00001ab0       crc_braid_big_table        0000000180014ab0     crc32.obj
+ 0002:00002ab0       x2n_table                  0000000180015ab0     crc32.obj
+ 0002:00002b30       ?my_version@?1??deflateInit2_@@9@9 0000000180015b30     deflate.obj
+ 0002:00002b40       configuration_table        0000000180015b40     deflate.obj
+ 0002:00002be0       ?lenfix@?1??fixedtables@@9@9 0000000180015be0     infback.obj
+ 0002:000033e0       ?distfix@?1??fixedtables@@9@9 00000001800163e0     infback.obj
+ 0002:00003460       ?order@?1??inflateBack@@9@9 0000000180016460     infback.obj
+ 0002:00003490       ?lenfix@?1??fixedtables@@9@9 0000000180016490     inflate.obj
+ 0002:00003c90       ?distfix@?1??fixedtables@@9@9 0000000180016c90     inflate.obj
+ 0002:00003d10       ?order@?1??inflate@@9@9    0000000180016d10     inflate.obj
+ 0002:00003d40       ?dext@?1??inflate_table@@9@9 0000000180016d40     inftrees.obj
+ 0002:00003d80       ?lext@?1??inflate_table@@9@9 0000000180016d80     inftrees.obj
+ 0002:00003dc0       ?lbase@?1??inflate_table@@9@9 0000000180016dc0     inftrees.obj
+ 0002:00003e00       ?dbase@?1??inflate_table@@9@9 0000000180016e00     inftrees.obj
+ 0002:00004140       static_dtree               0000000180017140     trees.obj
+ 0002:000041c0       extra_blbits               00000001800171c0     trees.obj
+ 0002:00004210       extra_lbits                0000000180017210     trees.obj
+ 0002:00004290       base_dist                  0000000180017290     trees.obj
+ 0002:00004310       base_length                0000000180017310     trees.obj
+ 0002:00004388       static_l_desc              0000000180017388     trees.obj
+ 0002:000043a8       static_bl_desc             00000001800173a8     trees.obj
+ 0002:000043d0       extra_dbits                00000001800173d0     trees.obj
+ 0002:00004450       static_ltree               0000000180017450     trees.obj
+ 0002:000048d0       static_d_desc              00000001800178d0     trees.obj
+ 0002:000048f0       bl_order                   00000001800178f0     trees.obj
+ 0002:00005360       $unwind$adler32_z          0000000180018360     adler32.obj
+ 0002:00005388       $unwind$adler32_combine_   0000000180018388     adler32.obj
+ 0002:00005388       $unwind$slide_hash         0000000180018388     deflate.obj
+ 0002:00005388       $unwind$syncsearch         0000000180018388     inflate.obj
+ 0002:00005390       $unwind$compress2          0000000180018390     compress.obj
+ 0002:000053a8       $unwind$compress           00000001800183a8     compress.obj
+ 0002:000053a8       $unwind$unzGoToFilePos     00000001800183a8     unzip.obj
+ 0002:000053a8       $unwind$unzOpenCurrentFile 00000001800183a8     unzip.obj
+ 0002:000053a8       $unwind$unzOpenCurrentFile2 00000001800183a8     unzip.obj
+ 0002:000053a8       $unwind$unzOpenCurrentFilePassword 00000001800183a8     unzip.obj
+ 0002:000053b0       $unwind$x2nmodp            00000001800183b0     crc32.obj
+ 0002:000053b0       $unwind$deflateBound       00000001800183b0     deflate.obj
+ 0002:000053b0       $unwind$gzoffset64         00000001800183b0     gzlib.obj
+ 0002:000053b0       $unwind$gzrewind           00000001800183b0     gzlib.obj
+ 0002:000053b0       $unwind$gz_avail           00000001800183b0     gzread.obj
+ 0002:000053b0       $unwind$gz_fetch           00000001800183b0     gzread.obj
+ 0002:000053b0       $unwind$gzdirect           00000001800183b0     gzread.obj
+ 0002:000053b0       $unwind$gzfread            00000001800183b0     gzread.obj
+ 0002:000053b0       $unwind$gzread             00000001800183b0     gzread.obj
+ 0002:000053b0       $unwind$gzfwrite           00000001800183b0     gzwrite.obj
+ 0002:000053b0       $unwind$inflateBackEnd     00000001800183b0     infback.obj
+ 0002:000053b0       $unwind$win32_tell64_file_func 00000001800183b0     iowin32.obj
+ 0002:000053b0       $unwind$win32_tell_file_func 00000001800183b0     iowin32.obj
+ 0002:000053b0       $unwind$build_bl_tree      00000001800183b0     trees.obj
+ 0002:000053b0       $unwind$unzClose           00000001800183b0     unzip.obj
+ 0002:000053b0       $unwind$free_linkedlist    00000001800183b0     zip.obj
+ 0002:000053b0       $unwind$set_end            00000001800183b0     zip.obj
+ 0002:000053b0       $unwind$__scrt_initialize_onexit_tables 00000001800183b0     MSVCRT:utility.obj
+ 0002:000053b0       $unwind$__scrt_release_startup_lock 00000001800183b0     MSVCRT:utility.obj
+ 0002:000053b0       $unwind$__scrt_uninitialize_crt 00000001800183b0     MSVCRT:utility.obj
+ 0002:000053b8       $chain$0$x2nmodp           00000001800183b8     crc32.obj
+ 0002:000053cc       $chain$1$x2nmodp           00000001800183cc     crc32.obj
+ 0002:000053dc       $unwind$crc32_z            00000001800183dc     crc32.obj
+ 0002:000053e8       $chain$3$crc32_z           00000001800183e8     crc32.obj
+ 0002:00005408       $chain$5$crc32_z           0000000180018408     crc32.obj
+ 0002:00005420       $chain$6$crc32_z           0000000180018420     crc32.obj
+ 0002:00005430       $chain$7$crc32_z           0000000180018430     crc32.obj
+ 0002:00005440       $unwind$crc32_combine64    0000000180018440     crc32.obj
+ 0002:00005440       $unwind$deflatePrime       0000000180018440     deflate.obj
+ 0002:00005440       $unwind$deflateReset       0000000180018440     deflate.obj
+ 0002:00005440       $unwind$lm_init            0000000180018440     deflate.obj
+ 0002:00005440       $unwind$gz_reset           0000000180018440     gzlib.obj
+ 0002:00005440       $unwind$gz_skip            0000000180018440     gzread.obj
+ 0002:00005440       $unwind$gzungetc           0000000180018440     gzread.obj
+ 0002:00005440       $unwind$gzclose_w          0000000180018440     gzwrite.obj
+ 0002:00005440       $unwind$gzflush            0000000180018440     gzwrite.obj
+ 0002:00005440       $unwind$win32_close_file_func 0000000180018440     iowin32.obj
+ 0002:00005440       $unwind$win32_seek64_file_func 0000000180018440     iowin32.obj
+ 0002:00005440       $unwind$win32_seek_file_func 0000000180018440     iowin32.obj
+ 0002:00005440       $unwind$_tr_stored_block   0000000180018440     trees.obj
+ 0002:00005440       $unwind$Write_Zip64EndOfCentralDirectoryLocator 0000000180018440     zip.obj
+ 0002:00005440       $unwind$_RTC_Initialize    0000000180018440     MSVCRT:initsect.obj
+ 0002:00005440       $unwind$_RTC_Terminate     0000000180018440     MSVCRT:initsect.obj
+ 0002:0000544c       $unwind$crc32_combine_op   000000018001844c     crc32.obj
+ 0002:0000544c       $unwind$deflatePending     000000018001844c     deflate.obj
+ 0002:0000544c       $unwind$deflateSetHeader   000000018001844c     deflate.obj
+ 0002:0000544c       $unwind$deflateTune        000000018001844c     deflate.obj
+ 0002:0000544c       $unwind$deflateUsed        000000018001844c     deflate.obj
+ 0002:0000544c       $unwind$gzgetc             000000018001844c     gzread.obj
+ 0002:0000544c       $unwind$gzwrite            000000018001844c     gzwrite.obj
+ 0002:0000544c       $unwind$inflateCodesUsed   000000018001844c     inflate.obj
+ 0002:0000544c       $unwind$inflateGetHeader   000000018001844c     inflate.obj
+ 0002:0000544c       $unwind$inflateMark        000000018001844c     inflate.obj
+ 0002:0000544c       $unwind$inflatePrime       000000018001844c     inflate.obj
+ 0002:0000544c       $unwind$inflateReset       000000018001844c     inflate.obj
+ 0002:0000544c       $unwind$inflateResetKeep   000000018001844c     inflate.obj
+ 0002:0000544c       $unwind$inflateSyncPoint   000000018001844c     inflate.obj
+ 0002:0000544c       $unwind$inflateUndermine   000000018001844c     inflate.obj
+ 0002:0000544c       $unwind$inflateValidate    000000018001844c     inflate.obj
+ 0002:0000544c       $unwind$call_ztell64       000000018001844c     ioapi.obj
+ 0002:0000544c       $unwind$fseek64_file_func  000000018001844c     ioapi.obj
+ 0002:0000544c       $unwind$allocate_new_datablock 000000018001844c     zip.obj
+ 0002:0000544c       $unwind$free_datablock     000000018001844c     zip.obj
+ 0002:0000544c       $unwind$__scrt_initialize_default_local_stdio_options 000000018001844c     MSVCRT:default_local_stdio_options.obj
+ 0002:0000544c       $unwind$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018001844c     MSVCRT:dll_dllmain.obj
+ 0002:0000544c       $unwind$DllMain            000000018001844c     MSVCRT:dll_dllmain_stub.obj
+ 0002:0000544c       $unwind$__scrt_acquire_startup_lock 000000018001844c     MSVCRT:utility.obj
+ 0002:0000544c       $unwind$__scrt_dllmain_after_initialize_c 000000018001844c     MSVCRT:utility.obj
+ 0002:0000544c       $unwind$__scrt_dllmain_before_initialize_c 000000018001844c     MSVCRT:utility.obj
+ 0002:0000544c       $unwind$__scrt_dllmain_crt_thread_attach 000000018001844c     MSVCRT:utility.obj
+ 0002:0000544c       $unwind$__scrt_dllmain_crt_thread_detach 000000018001844c     MSVCRT:utility.obj
+ 0002:0000544c       $unwind$__scrt_dllmain_uninitialize_c 000000018001844c     MSVCRT:utility.obj
+ 0002:0000544c       $unwind$__scrt_dllmain_uninitialize_critical 000000018001844c     MSVCRT:utility.obj
+ 0002:0000544c       $unwind$__scrt_initialize_crt 000000018001844c     MSVCRT:utility.obj
+ 0002:00005454       $unwind$read_buf           0000000180018454     deflate.obj
+ 0002:00005468       $unwind$fill_window        0000000180018468     deflate.obj
+ 0002:00005480       $unwind$deflateInit_       0000000180018480     deflate.obj
+ 0002:00005480       $unwind$gen_codes          0000000180018480     trees.obj
+ 0002:00005488       $unwind$deflateInit2_      0000000180018488     deflate.obj
+ 0002:00005498       $chain$1$deflateInit2_     0000000180018498     deflate.obj
+ 0002:000054b0       $chain$2$deflateInit2_     00000001800184b0     deflate.obj
+ 0002:000054c4       $chain$3$deflateInit2_     00000001800184c4     deflate.obj
+ 0002:000054d4       $chain$5$deflateInit2_     00000001800184d4     deflate.obj
+ 0002:000054f0       $chain$6$deflateInit2_     00000001800184f0     deflate.obj
+ 0002:00005508       $chain$7$deflateInit2_     0000000180018508     deflate.obj
+ 0002:00005518       $unwind$deflateSetDictionary 0000000180018518     deflate.obj
+ 0002:00005528       $chain$2$deflateSetDictionary 0000000180018528     deflate.obj
+ 0002:00005544       $chain$3$deflateSetDictionary 0000000180018544     deflate.obj
+ 0002:00005554       $unwind$deflateGetDictionary 0000000180018554     deflate.obj
+ 0002:00005560       $unwind$deflateResetKeep   0000000180018560     deflate.obj
+ 0002:0000556c       $unwind$deflateParams      000000018001856c     deflate.obj
+ 0002:0000556c       $unwind$gz_load            000000018001856c     gzread.obj
+ 0002:0000556c       $unwind$inflateSetDictionary 000000018001856c     inflate.obj
+ 0002:0000556c       $unwind$send_all_trees     000000018001856c     trees.obj
+ 0002:0000556c       $unwind$Write_GlobalComment 000000018001856c     zip.obj
+ 0002:00005584       $unwind$flush_pending      0000000180018584     deflate.obj
+ 0002:00005594       $chain$0$flush_pending     0000000180018594     deflate.obj
+ 0002:000055a8       $chain$1$flush_pending     00000001800185a8     deflate.obj
+ 0002:000055b8       $unwind$deflate            00000001800185b8     deflate.obj
+ 0002:000055c4       $chain$4$deflate           00000001800185c4     deflate.obj
+ 0002:000055e8       $chain$6$deflate           00000001800185e8     deflate.obj
+ 0002:0000560c       $chain$7$deflate           000000018001860c     deflate.obj
+ 0002:00005620       $chain$8$deflate           0000000180018620     deflate.obj
+ 0002:00005630       $unwind$deflateEnd         0000000180018630     deflate.obj
+ 0002:00005644       $chain$4$deflateEnd        0000000180018644     deflate.obj
+ 0002:0000565c       $chain$5$deflateEnd        000000018001865c     deflate.obj
+ 0002:00005670       $unwind$deflateCopy        0000000180018670     deflate.obj
+ 0002:00005670       $unwind$gzputs             0000000180018670     gzwrite.obj
+ 0002:00005678       $chain$1$deflateCopy       0000000180018678     deflate.obj
+ 0002:00005690       $chain$3$deflateCopy       0000000180018690     deflate.obj
+ 0002:000056a8       $chain$4$deflateCopy       00000001800186a8     deflate.obj
+ 0002:000056b8       $unwind$longest_match      00000001800186b8     deflate.obj
+ 0002:000056d4       $unwind$deflate_stored     00000001800186d4     deflate.obj
+ 0002:000056e0       $chain$0$deflate_stored    00000001800186e0     deflate.obj
+ 0002:000056f4       $chain$4$deflate_stored    00000001800186f4     deflate.obj
+ 0002:00005714       $chain$5$deflate_stored    0000000180018714     deflate.obj
+ 0002:0000572c       $chain$6$deflate_stored    000000018001872c     deflate.obj
+ 0002:00005744       $unwind$deflate_fast       0000000180018744     deflate.obj
+ 0002:00005744       $unwind$deflate_slow       0000000180018744     deflate.obj
+ 0002:00005760       $unwind$deflate_rle        0000000180018760     deflate.obj
+ 0002:00005778       $unwind$deflate_huff       0000000180018778     deflate.obj
+ 0002:00005778       $unwind$gzdopen            0000000180018778     gzlib.obj
+ 0002:00005778       $unwind$init_keys          0000000180018778     unzip.obj
+ 0002:00005778       $unwind$unzCloseCurrentFile 0000000180018778     unzip.obj
+ 0002:00005778       $unwind$unzGetLocalExtrafield 0000000180018778     unzip.obj
+ 0002:00005778       $unwind$Write_Zip64EndOfCentralDirectoryRecord 0000000180018778     zip.obj
+ 0002:00005778       $unwind$init_keys          0000000180018778     zip.obj
+ 0002:00005778       $unwind$_DllMainCRTStartup 0000000180018778     MSVCRT:dll_dllmain.obj
+ 0002:00005788       $unwind$snprintf           0000000180018788     gzlib.obj
+ 0002:00005788       $unwind$compress_block     0000000180018788     trees.obj
+ 0002:00005798       $unwind$gz_open            0000000180018798     gzlib.obj
+ 0002:000057ac       $chain$1$gz_open           00000001800187ac     gzlib.obj
+ 0002:000057c4       $chain$3$gz_open           00000001800187c4     gzlib.obj
+ 0002:000057dc       $chain$4$gz_open           00000001800187dc     gzlib.obj
+ 0002:000057ec       $unwind$gzseek64           00000001800187ec     gzlib.obj
+ 0002:00005800       $unwind$gz_error           0000000180018800     gzlib.obj
+ 0002:00005814       $unwind$gz_decomp          0000000180018814     gzread.obj
+ 0002:00005814       $unwind$gz_look            0000000180018814     gzread.obj
+ 0002:00005814       $unwind$gz_zero            0000000180018814     gzwrite.obj
+ 0002:00005814       $unwind$inflateReset2      0000000180018814     inflate.obj
+ 0002:00005814       $unwind$_tr_flush_block    0000000180018814     trees.obj
+ 0002:00005814       $unwind$zip64local_getShort 0000000180018814     zip.obj
+ 0002:00005814       $unwind$__scrt_dllmain_exception_filter 0000000180018814     MSVCRT:utility.obj
+ 0002:00005828       $unwind$gz_read            0000000180018828     gzread.obj
+ 0002:00005844       $unwind$gzgets             0000000180018844     gzread.obj
+ 0002:00005860       $unwind$gzclose_r          0000000180018860     gzread.obj
+ 0002:00005868       $chain$1$gzclose_r         0000000180018868     gzread.obj
+ 0002:00005880       $chain$2$gzclose_r         0000000180018880     gzread.obj
+ 0002:00005890       $unwind$gz_init            0000000180018890     gzwrite.obj
+ 0002:000058a4       $unwind$gz_comp            00000001800188a4     gzwrite.obj
+ 0002:000058b8       $chain$2$gz_comp           00000001800188b8     gzwrite.obj
+ 0002:000058cc       $chain$3$gz_comp           00000001800188cc     gzwrite.obj
+ 0002:000058dc       $unwind$gz_write           00000001800188dc     gzwrite.obj
+ 0002:000058f4       $unwind$gzputc             00000001800188f4     gzwrite.obj
+ 0002:00005900       $chain$0$gzputs            0000000180018900     gzwrite.obj
+ 0002:00005914       $chain$2$gzputs            0000000180018914     gzwrite.obj
+ 0002:00005928       $chain$3$gzputs            0000000180018928     gzwrite.obj
+ 0002:00005938       $unwind$gzvprintf          0000000180018938     gzwrite.obj
+ 0002:00005948       $chain$1$gzvprintf         0000000180018948     gzwrite.obj
+ 0002:00005960       $chain$3$gzvprintf         0000000180018960     gzwrite.obj
+ 0002:00005978       $chain$4$gzvprintf         0000000180018978     gzwrite.obj
+ 0002:00005988       $unwind$gzprintf           0000000180018988     gzwrite.obj
+ 0002:00005990       $unwind$gzsetparams        0000000180018990     gzwrite.obj
+ 0002:000059a0       $chain$1$gzsetparams       00000001800189a0     gzwrite.obj
+ 0002:000059b8       $chain$2$gzsetparams       00000001800189b8     gzwrite.obj
+ 0002:000059cc       $chain$3$gzsetparams       00000001800189cc     gzwrite.obj
+ 0002:000059dc       $chain$5$gzsetparams       00000001800189dc     gzwrite.obj
+ 0002:000059f8       $chain$6$gzsetparams       00000001800189f8     gzwrite.obj
+ 0002:00005a08       $unwind$inflateBackInit_   0000000180018a08     infback.obj
+ 0002:00005a08       $unwind$unz64local_getLong 0000000180018a08     unzip.obj
+ 0002:00005a08       $unwind$unz64local_getLong64 0000000180018a08     unzip.obj
+ 0002:00005a08       $unwind$unz64local_getShort 0000000180018a08     unzip.obj
+ 0002:00005a08       $unwind$zip64local_getByte 0000000180018a08     zip.obj
+ 0002:00005a08       $unwind$zip64local_putValue 0000000180018a08     zip.obj
+ 0002:00005a18       $chain$0$inflateBackInit_  0000000180018a18     infback.obj
+ 0002:00005a2c       $chain$2$inflateBackInit_  0000000180018a2c     infback.obj
+ 0002:00005a40       $chain$3$inflateBackInit_  0000000180018a40     infback.obj
+ 0002:00005a50       $unwind$inflateBack        0000000180018a50     infback.obj
+ 0002:00005a60       $chain$2$inflateBack       0000000180018a60     infback.obj
+ 0002:00005a7c       $chain$3$inflateBack       0000000180018a7c     infback.obj
+ 0002:00005a90       $chain$4$inflateBack       0000000180018a90     infback.obj
+ 0002:00005aa0       $chain$5$inflateBack       0000000180018aa0     infback.obj
+ 0002:00005ab0       $unwind$inflate_fast       0000000180018ab0     inffast.obj
+ 0002:00005ac8       $unwind$inflateInit2_      0000000180018ac8     inflate.obj
+ 0002:00005ad4       $chain$1$inflateInit2_     0000000180018ad4     inflate.obj
+ 0002:00005aec       $chain$3$inflateInit2_     0000000180018aec     inflate.obj
+ 0002:00005b04       $chain$4$inflateInit2_     0000000180018b04     inflate.obj
+ 0002:00005b14       $unwind$updatewindow       0000000180018b14     inflate.obj
+ 0002:00005b2c       $unwind$inflate            0000000180018b2c     inflate.obj
+ 0002:00005b44       $unwind$inflateEnd         0000000180018b44     inflate.obj
+ 0002:00005b54       $unwind$inflateGetDictionary 0000000180018b54     inflate.obj
+ 0002:00005b64       $unwind$inflateSync        0000000180018b64     inflate.obj
+ 0002:00005b6c       $chain$1$inflateSync       0000000180018b6c     inflate.obj
+ 0002:00005b84       $chain$4$inflateSync       0000000180018b84     inflate.obj
+ 0002:00005ba0       $chain$5$inflateSync       0000000180018ba0     inflate.obj
+ 0002:00005bb4       $chain$6$inflateSync       0000000180018bb4     inflate.obj
+ 0002:00005bc4       $unwind$inflateCopy        0000000180018bc4     inflate.obj
+ 0002:00005bd0       $chain$2$inflateCopy       0000000180018bd0     inflate.obj
+ 0002:00005bec       $chain$4$inflateCopy       0000000180018bec     inflate.obj
+ 0002:00005c04       $chain$5$inflateCopy       0000000180018c04     inflate.obj
+ 0002:00005c14       $chain$7$inflateCopy       0000000180018c14     inflate.obj
+ 0002:00005c38       $chain$8$inflateCopy       0000000180018c38     inflate.obj
+ 0002:00005c48       $unwind$inflate_table      0000000180018c48     inftrees.obj
+ 0002:00005c60       $unwind$win32_build_iowin  0000000180018c60     iowin32.obj
+ 0002:00005c68       $chain$0$win32_build_iowin 0000000180018c68     iowin32.obj
+ 0002:00005c7c       $chain$2$win32_build_iowin 0000000180018c7c     iowin32.obj
+ 0002:00005c90       $chain$3$win32_build_iowin 0000000180018c90     iowin32.obj
+ 0002:00005ca0       $unwind$win32_open64_file_func 0000000180018ca0     iowin32.obj
+ 0002:00005ca0       $unwind$win32_open64_file_funcA 0000000180018ca0     iowin32.obj
+ 0002:00005ca0       $unwind$win32_open64_file_funcW 0000000180018ca0     iowin32.obj
+ 0002:00005ca0       $unwind$win32_open_file_func 0000000180018ca0     iowin32.obj
+ 0002:00005ca8       $unwind$win32_read_file_func 0000000180018ca8     iowin32.obj
+ 0002:00005ca8       $unwind$win32_write_file_func 0000000180018ca8     iowin32.obj
+ 0002:00005cb4       $unwind$MySetFilePointerEx 0000000180018cb4     iowin32.obj
+ 0002:00005cc4       $unwind$pqdownheap         0000000180018cc4     trees.obj
+ 0002:00005cd0       $chain$0$pqdownheap        0000000180018cd0     trees.obj
+ 0002:00005ce4       $chain$2$pqdownheap        0000000180018ce4     trees.obj
+ 0002:00005cf8       $chain$3$pqdownheap        0000000180018cf8     trees.obj
+ 0002:00005d08       $unwind$gen_bitlen         0000000180018d08     trees.obj
+ 0002:00005d18       $chain$0$gen_bitlen        0000000180018d18     trees.obj
+ 0002:00005d2c       $chain$2$gen_bitlen        0000000180018d2c     trees.obj
+ 0002:00005d44       $chain$3$gen_bitlen        0000000180018d44     trees.obj
+ 0002:00005d54       $chain$4$gen_bitlen        0000000180018d54     trees.obj
+ 0002:00005d64       $unwind$build_tree         0000000180018d64     trees.obj
+ 0002:00005d80       $unwind$scan_tree          0000000180018d80     trees.obj
+ 0002:00005d88       $chain$3$scan_tree         0000000180018d88     trees.obj
+ 0002:00005da8       $chain$4$scan_tree         0000000180018da8     trees.obj
+ 0002:00005db8       $unwind$send_tree          0000000180018db8     trees.obj
+ 0002:00005dc0       $chain$6$send_tree         0000000180018dc0     trees.obj
+ 0002:00005dec       $chain$7$send_tree         0000000180018dec     trees.obj
+ 0002:00005dfc       $chain$0$compress_block    0000000180018dfc     trees.obj
+ 0002:00005e10       $chain$3$compress_block    0000000180018e10     trees.obj
+ 0002:00005e2c       $chain$4$compress_block    0000000180018e2c     trees.obj
+ 0002:00005e3c       $chain$5$compress_block    0000000180018e3c     trees.obj
+ 0002:00005e4c       $unwind$uncompress2        0000000180018e4c     uncompr.obj
+ 0002:00005e68       $chain$0$uncompress2       0000000180018e68     uncompr.obj
+ 0002:00005e7c       $chain$1$uncompress2       0000000180018e7c     uncompr.obj
+ 0002:00005e8c       $unwind$uncompress         0000000180018e8c     uncompr.obj
+ 0002:00005e94       $unwind$unz64local_SearchCentralDir 0000000180018e94     unzip.obj
+ 0002:00005ea8       $chain$0$unz64local_SearchCentralDir 0000000180018ea8     unzip.obj
+ 0002:00005ebc       $chain$1$unz64local_SearchCentralDir 0000000180018ebc     unzip.obj
+ 0002:00005ed0       $chain$2$unz64local_SearchCentralDir 0000000180018ed0     unzip.obj
+ 0002:00005ee0       $chain$3$unz64local_SearchCentralDir 0000000180018ee0     unzip.obj
+ 0002:00005ef0       $unwind$unz64local_SearchCentralDir64 0000000180018ef0     unzip.obj
+ 0002:00005ef0       $unwind$zip64local_SearchCentralDir64 0000000180018ef0     zip.obj
+ 0002:00005f04       $chain$0$unz64local_SearchCentralDir64 0000000180018f04     unzip.obj
+ 0002:00005f18       $chain$1$unz64local_SearchCentralDir64 0000000180018f18     unzip.obj
+ 0002:00005f2c       $chain$2$unz64local_SearchCentralDir64 0000000180018f2c     unzip.obj
+ 0002:00005f3c       $chain$3$unz64local_SearchCentralDir64 0000000180018f3c     unzip.obj
+ 0002:00005f4c       $unwind$unzOpenInternal    0000000180018f4c     unzip.obj
+ 0002:00005f64       $chain$3$unzOpenInternal   0000000180018f64     unzip.obj
+ 0002:00005f7c       $chain$4$unzOpenInternal   0000000180018f7c     unzip.obj
+ 0002:00005f90       $unwind$unzOpen2           0000000180018f90     unzip.obj
+ 0002:00005f90       $unwind$unzOpen2_64        0000000180018f90     unzip.obj
+ 0002:00005f90       $unwind$zipOpen2_64        0000000180018f90     zip.obj
+ 0002:00005f98       $unwind$unz64local_GetCurrentFileInfoInternal 0000000180018f98     unzip.obj
+ 0002:00005fb8       $unwind$unzGetCurrentFileInfo64 0000000180018fb8     unzip.obj
+ 0002:00005fc0       $unwind$unzGetCurrentFileInfo 0000000180018fc0     unzip.obj
+ 0002:00005fcc       $unwind$unzGoToFirstFile   0000000180018fcc     unzip.obj
+ 0002:00005fd8       $unwind$unzGoToFilePos64   0000000180018fd8     unzip.obj
+ 0002:00005fd8       $unwind$unzGoToNextFile    0000000180018fd8     unzip.obj
+ 0002:00005fe0       $chain$0$unzGoToNextFile   0000000180018fe0     unzip.obj
+ 0002:00005ff4       $chain$1$unzGoToNextFile   0000000180018ff4     unzip.obj
+ 0002:00006004       $unwind$unzLocateFile      0000000180019004     unzip.obj
+ 0002:00006014       $chain$3$unzLocateFile     0000000180019014     unzip.obj
+ 0002:00006034       $chain$5$unzLocateFile     0000000180019034     unzip.obj
+ 0002:00006054       $chain$6$unzLocateFile     0000000180019054     unzip.obj
+ 0002:00006064       $unwind$unzGetFilePos      0000000180019064     unzip.obj
+ 0002:0000606c       $chain$0$unzGoToFilePos64  000000018001906c     unzip.obj
+ 0002:00006080       $chain$1$unzGoToFilePos64  0000000180019080     unzip.obj
+ 0002:00006090       $unwind$unz64local_CheckCurrentFileCoherencyHeader 0000000180019090     unzip.obj
+ 0002:000060ac       $unwind$unzOpenCurrentFile3 00000001800190ac     unzip.obj
+ 0002:000060bc       $chain$1$unzOpenCurrentFile3 00000001800190bc     unzip.obj
+ 0002:000060d4       $chain$3$unzOpenCurrentFile3 00000001800190d4     unzip.obj
+ 0002:000060ec       $chain$4$unzOpenCurrentFile3 00000001800190ec     unzip.obj
+ 0002:000060fc       $unwind$unzReadCurrentFile 00000001800190fc     unzip.obj
+ 0002:00006108       $chain$4$unzReadCurrentFile 0000000180019108     unzip.obj
+ 0002:0000612c       $chain$6$unzReadCurrentFile 000000018001912c     unzip.obj
+ 0002:00006150       $chain$7$unzReadCurrentFile 0000000180019150     unzip.obj
+ 0002:00006160       $unwind$unzGetGlobalComment 0000000180019160     unzip.obj
+ 0002:00006174       $unwind$set_sweep          0000000180019174     zip.obj
+ 0002:00006180       $chain$0$set_sweep         0000000180019180     zip.obj
+ 0002:00006194       $chain$1$set_sweep         0000000180019194     zip.obj
+ 0002:000061a4       $unwind$crypthead          00000001800191a4     zip.obj
+ 0002:000061c0       $chain$0$free_datablock    00000001800191c0     zip.obj
+ 0002:000061d4       $chain$1$free_datablock    00000001800191d4     zip.obj
+ 0002:000061e4       $unwind$add_data_in_datablock 00000001800191e4     zip.obj
+ 0002:000061e4       $unwind$zip64local_getLong 00000001800191e4     zip.obj
+ 0002:000061e4       $unwind$zip64local_getLong64 00000001800191e4     zip.obj
+ 0002:000061f8       $unwind$zip64local_SearchCentralDir 00000001800191f8     zip.obj
+ 0002:0000620c       $chain$0$zip64local_SearchCentralDir 000000018001920c     zip.obj
+ 0002:00006220       $chain$1$zip64local_SearchCentralDir 0000000180019220     zip.obj
+ 0002:00006234       $chain$2$zip64local_SearchCentralDir 0000000180019234     zip.obj
+ 0002:00006244       $chain$3$zip64local_SearchCentralDir 0000000180019244     zip.obj
+ 0002:00006254       $chain$0$zip64local_SearchCentralDir64 0000000180019254     zip.obj
+ 0002:00006268       $chain$1$zip64local_SearchCentralDir64 0000000180019268     zip.obj
+ 0002:0000627c       $chain$2$zip64local_SearchCentralDir64 000000018001927c     zip.obj
+ 0002:0000628c       $chain$3$zip64local_SearchCentralDir64 000000018001928c     zip.obj
+ 0002:0000629c       $unwind$LoadCentralDirectoryRecord 000000018001929c     zip.obj
+ 0002:000062b4       $unwind$zipOpen3           00000001800192b4     zip.obj
+ 0002:000062d0       $unwind$zipOpen2           00000001800192d0     zip.obj
+ 0002:000062d8       $unwind$Write_LocalFileHeader 00000001800192d8     zip.obj
+ 0002:000062f0       $unwind$zipOpenNewFileInZip4_64 00000001800192f0     zip.obj
+ 0002:00006304       $chain$1$zipOpenNewFileInZip4_64 0000000180019304     zip.obj
+ 0002:0000631c       $chain$2$zipOpenNewFileInZip4_64 000000018001931c     zip.obj
+ 0002:0000631c       $chain$4$zipOpenNewFileInZip4_64 000000018001931c     zip.obj
+ 0002:00006330       $chain$3$zipOpenNewFileInZip4_64 0000000180019330     zip.obj
+ 0002:00006330       $chain$5$zipOpenNewFileInZip4_64 0000000180019330     zip.obj
+ 0002:00006340       $unwind$zipOpenNewFileInZip 0000000180019340     zip.obj
+ 0002:00006340       $unwind$zipOpenNewFileInZip2 0000000180019340     zip.obj
+ 0002:00006340       $unwind$zipOpenNewFileInZip2_64 0000000180019340     zip.obj
+ 0002:00006340       $unwind$zipOpenNewFileInZip3 0000000180019340     zip.obj
+ 0002:00006340       $unwind$zipOpenNewFileInZip3_64 0000000180019340     zip.obj
+ 0002:00006340       $unwind$zipOpenNewFileInZip64 0000000180019340     zip.obj
+ 0002:00006348       $unwind$zip64FlushWriteBuffer 0000000180019348     zip.obj
+ 0002:00006354       $chain$0$zip64FlushWriteBuffer 0000000180019354     zip.obj
+ 0002:00006368       $chain$2$zip64FlushWriteBuffer 0000000180019368     zip.obj
+ 0002:00006380       $chain$3$zip64FlushWriteBuffer 0000000180019380     zip.obj
+ 0002:00006390       $chain$4$zip64FlushWriteBuffer 0000000180019390     zip.obj
+ 0002:000063a0       $unwind$zipWriteInFileInZip 00000001800193a0     zip.obj
+ 0002:000063b4       $chain$0$zipWriteInFileInZip 00000001800193b4     zip.obj
+ 0002:000063c8       $chain$2$zipWriteInFileInZip 00000001800193c8     zip.obj
+ 0002:000063dc       $chain$3$zipWriteInFileInZip 00000001800193dc     zip.obj
+ 0002:000063ec       $unwind$zipCloseFileInZipRaw64 00000001800193ec     zip.obj
+ 0002:000063fc       $chain$3$zipCloseFileInZipRaw64 00000001800193fc     zip.obj
+ 0002:0000641c       $chain$5$zipCloseFileInZipRaw64 000000018001941c     zip.obj
+ 0002:0000643c       $chain$6$zipCloseFileInZipRaw64 000000018001943c     zip.obj
+ 0002:0000644c       $unwind$Write_EndOfCentralDirectoryRecord 000000018001944c     zip.obj
+ 0002:0000645c       $chain$0$Write_EndOfCentralDirectoryRecord 000000018001945c     zip.obj
+ 0002:00006470       $chain$1$Write_EndOfCentralDirectoryRecord 0000000180019470     zip.obj
+ 0002:00006480       $unwind$zipClose           0000000180019480     zip.obj
+ 0002:00006490       $chain$1$zipClose          0000000180019490     zip.obj
+ 0002:000064a8       $chain$2$zipClose          00000001800194a8     zip.obj
+ 0002:000064bc       $chain$3$zipClose          00000001800194bc     zip.obj
+ 0002:000064d0       $chain$4$zipClose          00000001800194d0     zip.obj
+ 0002:000064e0       $chain$5$zipClose          00000001800194e0     zip.obj
+ 0002:000064f0       $chain$6$zipClose          00000001800194f0     zip.obj
+ 0002:00006504       $unwind$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 0000000180019504     MSVCRT:dll_dllmain.obj
+ 0002:00006540       $unwind$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 0000000180019540     MSVCRT:dll_dllmain.obj
+ 0002:00006540       $unwind$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180019540     MSVCRT:dll_dllmain.obj
+ 0002:00006540       $unwind$?fin$1@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180019540     MSVCRT:dll_dllmain.obj
+ 0002:00006548       $unwind$?dllmain_crt_process_detach@@YAH_N@Z 0000000180019548     MSVCRT:dll_dllmain.obj
+ 0002:0000659c       $unwind$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018001959c     MSVCRT:dll_dllmain.obj
+ 0002:000065c4       $unwind$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 00000001800195c4     MSVCRT:dll_dllmain.obj
+ 0002:000065cc       $unwind$__security_init_cookie 00000001800195cc     MSVCRT:gs_support.obj
+ 0002:000065d8       $unwind$__scrt_is_nonwritable_in_current_image 00000001800195d8     MSVCRT:utility.obj
+ 0002:000065f8       $unwind$__scrt_is_nonwritable_in_current_image$filt$0 00000001800195f8     MSVCRT:utility.obj
+ 0002:00006600       $unwind$__scrt_fastfail    0000000180019600     MSVCRT:utility_desktop.obj
+ 0002:00006610       $unwind$__isa_available_init 0000000180019610     MSVCRT:cpu_disp.obj
+ 0002:00006628       $xdatasym                  0000000180019628     MSVCRT:guard_dispatch.obj
+ 0002:00006630       $xdatasym                  0000000180019630     MSVCRT:guard_xfg_dispatch.obj
+ 0002:00006638       $xdatasym                  0000000180019638     MSVCRT:chkstk.obj
+ 0002:00006640       .edata                     0000000180019640     zlibwapi.exp
+ 0002:00006668       rgpv                       0000000180019668     zlibwapi.exp
+ 0002:00006934       rgszName                   0000000180019934     zlibwapi.exp
+ 0002:00006b48       rgwOrd                     0000000180019b48     zlibwapi.exp
+ 0002:00006c52       szName                     0000000180019c52     zlibwapi.exp
+ 0002:00006c5f       $N00001                    0000000180019c5f     zlibwapi.exp
+ 0002:00006c67       $N00140                    0000000180019c67     zlibwapi.exp
+ 0002:00006c77       $N00174                    0000000180019c77     zlibwapi.exp
+ 0002:00006c81       $N00002                    0000000180019c81     zlibwapi.exp
+ 0002:00006c8a       $N00039                    0000000180019c8a     zlibwapi.exp
+ 0002:00006c94       $N00046                    0000000180019c94     zlibwapi.exp
+ 0002:00006ca2       $N00003                    0000000180019ca2     zlibwapi.exp
+ 0002:00006ca8       $N00142                    0000000180019ca8     zlibwapi.exp
+ 0002:00006cb6       $N00176                    0000000180019cb6     zlibwapi.exp
+ 0002:00006cc8       $N00177                    0000000180019cc8     zlibwapi.exp
+ 0002:00006cdc       $N00178                    0000000180019cdc     zlibwapi.exp
+ 0002:00006ced       $N00175                    0000000180019ced     zlibwapi.exp
+ 0002:00006cf5       $N00004                    0000000180019cf5     zlibwapi.exp
+ 0002:00006cfd       $N00047                    0000000180019cfd     zlibwapi.exp
+ 0002:00006d0a       $N00005                    0000000180019d0a     zlibwapi.exp
+ 0002:00006d16       $N00006                    0000000180019d16     zlibwapi.exp
+ 0002:00006d21       $N00173                    0000000180019d21     zlibwapi.exp
+ 0002:00006d36       $N00007                    0000000180019d36     zlibwapi.exp
+ 0002:00006d44       $N00008                    0000000180019d44     zlibwapi.exp
+ 0002:00006d51       $N00009                    0000000180019d51     zlibwapi.exp
+ 0002:00006d5f       $N00052                    0000000180019d5f     zlibwapi.exp
+ 0002:00006d6e       $N00051                    0000000180019d6e     zlibwapi.exp
+ 0002:00006d7b       $N00010                    0000000180019d7b     zlibwapi.exp
+ 0002:00006d88       $N00164                    0000000180019d88     zlibwapi.exp
+ 0002:00006d99       $N00011                    0000000180019d99     zlibwapi.exp
+ 0002:00006dae       $N00144                    0000000180019dae     zlibwapi.exp
+ 0002:00006dbf       $N00145                    0000000180019dbf     zlibwapi.exp
+ 0002:00006dcb       $N00179                    0000000180019dcb     zlibwapi.exp
+ 0002:00006dd7       $N00110                    0000000180019dd7     zlibwapi.exp
+ 0002:00006deb       $N00111                    0000000180019deb     zlibwapi.exp
+ 0002:00006e01       $N00112                    0000000180019e01     zlibwapi.exp
+ 0002:00006e18       $N00113                    0000000180019e18     zlibwapi.exp
+ 0002:00006e2f       $N00038                    0000000180019e2f     zlibwapi.exp
+ 0002:00006e3d       $N00146                    0000000180019e3d     zlibwapi.exp
+ 0002:00006e46       $N00048                    0000000180019e46     zlibwapi.exp
+ 0002:00006e51       $N00012                    0000000180019e51     zlibwapi.exp
+ 0002:00006e59       $N00147                    0000000180019e59     zlibwapi.exp
+ 0002:00006e63       $N00148                    0000000180019e63     zlibwapi.exp
+ 0002:00006e6d       $N00149                    0000000180019e6d     zlibwapi.exp
+ 0002:00006e76       $N00013                    0000000180019e76     zlibwapi.exp
+ 0002:00006e7e       $N00034                    0000000180019e7e     zlibwapi.exp
+ 0002:00006e84       $N00014                    0000000180019e84     zlibwapi.exp
+ 0002:00006e8c       $N00015                    0000000180019e8c     zlibwapi.exp
+ 0002:00006e94       $N00171                    0000000180019e94     zlibwapi.exp
+ 0002:00006e9c       $N00172                    0000000180019e9c     zlibwapi.exp
+ 0002:00006ea5       $N00030                    0000000180019ea5     zlibwapi.exp
+ 0002:00006eac       $N00161                    0000000180019eac     zlibwapi.exp
+ 0002:00006eb4       $N00041                    0000000180019eb4     zlibwapi.exp
+ 0002:00006ebb       $N00150                    0000000180019ebb     zlibwapi.exp
+ 0002:00006ec4       $N00016                    0000000180019ec4     zlibwapi.exp
+ 0002:00006ecb       $N00165                    0000000180019ecb     zlibwapi.exp
+ 0002:00006ed4       $N00028                    0000000180019ed4     zlibwapi.exp
+ 0002:00006edd       $N00029                    0000000180019edd     zlibwapi.exp
+ 0002:00006ee4       $N00040                    0000000180019ee4     zlibwapi.exp
+ 0002:00006eeb       $N00017                    0000000180019eeb     zlibwapi.exp
+ 0002:00006ef2       $N00032                    0000000180019ef2     zlibwapi.exp
+ 0002:00006efb       $N00031                    0000000180019efb     zlibwapi.exp
+ 0002:00006f02       $N00035                    0000000180019f02     zlibwapi.exp
+ 0002:00006f0e       $N00033                    0000000180019f0e     zlibwapi.exp
+ 0002:00006f15       $N00049                    0000000180019f15     zlibwapi.exp
+ 0002:00006f1e       $N00167                    0000000180019f1e     zlibwapi.exp
+ 0002:00006f28       $N00018                    0000000180019f28     zlibwapi.exp
+ 0002:00006f30       $N00019                    0000000180019f30     zlibwapi.exp
+ 0002:00006f38       $N00044                    0000000180019f38     zlibwapi.exp
+ 0002:00006f44       $N00045                    0000000180019f44     zlibwapi.exp
+ 0002:00006f53       $N00043                    0000000180019f53     zlibwapi.exp
+ 0002:00006f64       $N00168                    0000000180019f64     zlibwapi.exp
+ 0002:00006f75       $N00042                    0000000180019f75     zlibwapi.exp
+ 0002:00006f81       $N00020                    0000000180019f81     zlibwapi.exp
+ 0002:00006f8c       $N00166                    0000000180019f8c     zlibwapi.exp
+ 0002:00006fa1       $N00156                    0000000180019fa1     zlibwapi.exp
+ 0002:00006fb2       $N00021                    0000000180019fb2     zlibwapi.exp
+ 0002:00006fc0       $N00022                    0000000180019fc0     zlibwapi.exp
+ 0002:00006fcd       $N00157                    0000000180019fcd     zlibwapi.exp
+ 0002:00006fd9       $N00158                    0000000180019fd9     zlibwapi.exp
+ 0002:00006fe6       $N00023                    0000000180019fe6     zlibwapi.exp
+ 0002:00006ff3       $N00159                    0000000180019ff3     zlibwapi.exp
+ 0002:00007001       $N00163                    000000018001a001     zlibwapi.exp
+ 0002:00007012       $N00024                    000000018001a012     zlibwapi.exp
+ 0002:00007027       $N00025                    000000018001a027     zlibwapi.exp
+ 0002:00007033       $N00037                    000000018001a033     zlibwapi.exp
+ 0002:00007044       $N00160                    000000018001a044     zlibwapi.exp
+ 0002:00007055       $N00169                    000000018001a055     zlibwapi.exp
+ 0002:00007065       $N00026                    000000018001a065     zlibwapi.exp
+ 0002:00007070       $N00170                    000000018001a070     zlibwapi.exp
+ 0002:0000707c       $N00062                    000000018001a07c     zlibwapi.exp
+ 0002:00007085       $N00072                    000000018001a085     zlibwapi.exp
+ 0002:00007099       $N00064                    000000018001a099     zlibwapi.exp
+ 0002:000070af       $N00124                    000000018001a0af     zlibwapi.exp
+ 0002:000070c7       $N00125                    000000018001a0c7     zlibwapi.exp
+ 0002:000070e5       $N00100                    000000018001a0e5     zlibwapi.exp
+ 0002:000070f3       $N00127                    000000018001a0f3     zlibwapi.exp
+ 0002:00007103       $N00073                    000000018001a103     zlibwapi.exp
+ 0002:00007117       $N00063                    000000018001a117     zlibwapi.exp
+ 0002:00007128       $N00122                    000000018001a128     zlibwapi.exp
+ 0002:0000713b       $N00076                    000000018001a13b     zlibwapi.exp
+ 0002:00007151       $N00101                    000000018001a151     zlibwapi.exp
+ 0002:00007160       $N00128                    000000018001a160     zlibwapi.exp
+ 0002:00007171       $N00065                    000000018001a171     zlibwapi.exp
+ 0002:00007182       $N00066                    000000018001a182     zlibwapi.exp
+ 0002:00007192       $N00075                    000000018001a192     zlibwapi.exp
+ 0002:000071a0       $N00061                    000000018001a1a0     zlibwapi.exp
+ 0002:000071a8       $N00077                    000000018001a1a8     zlibwapi.exp
+ 0002:000071b1       $N00121                    000000018001a1b1     zlibwapi.exp
+ 0002:000071bd       $N00120                    000000018001a1bd     zlibwapi.exp
+ 0002:000071c7       $N00067                    000000018001a1c7     zlibwapi.exp
+ 0002:000071da       $N00078                    000000018001a1da     zlibwapi.exp
+ 0002:000071ee       $N00069                    000000018001a1ee     zlibwapi.exp
+ 0002:00007202       $N00079                    000000018001a202     zlibwapi.exp
+ 0002:0000721d       $N00068                    000000018001a21d     zlibwapi.exp
+ 0002:00007230       $N00074                    000000018001a230     zlibwapi.exp
+ 0002:00007249       $N00071                    000000018001a249     zlibwapi.exp
+ 0002:00007250       $N00070                    000000018001a250     zlibwapi.exp
+ 0002:00007258       $N00126                    000000018001a258     zlibwapi.exp
+ 0002:00007262       $N00036                    000000018001a262     zlibwapi.exp
+ 0002:00007269       $N00084                    000000018001a269     zlibwapi.exp
+ 0002:00007272       $N00083                    000000018001a272     zlibwapi.exp
+ 0002:00007284       $N00087                    000000018001a284     zlibwapi.exp
+ 0002:00007299       $N00136                    000000018001a299     zlibwapi.exp
+ 0002:000072b0       $N00080                    000000018001a2b0     zlibwapi.exp
+ 0002:000072b8       $N00088                    000000018001a2b8     zlibwapi.exp
+ 0002:000072c1       $N00131                    000000018001a2c1     zlibwapi.exp
+ 0002:000072cd       $N00130                    000000018001a2cd     zlibwapi.exp
+ 0002:000072d7       $N00081                    000000018001a2d7     zlibwapi.exp
+ 0002:000072eb       $N00086                    000000018001a2eb     zlibwapi.exp
+ 0002:00007300       $N00133                    000000018001a300     zlibwapi.exp
+ 0002:00007318       $N00089                    000000018001a318     zlibwapi.exp
+ 0002:0000732d       $N00134                    000000018001a32d     zlibwapi.exp
+ 0002:00007345       $N00135                    000000018001a345     zlibwapi.exp
+ 0002:0000735d       $N00132                    000000018001a35d     zlibwapi.exp
+ 0002:00007373       $N00082                    000000018001a373     zlibwapi.exp
+ 0002:00007387       $N00050                    000000018001a387     zlibwapi.exp
+ 0002:00007398       $N00027                    000000018001a398     zlibwapi.exp
+ 0002:000076bc       .idata$6                   000000018001a6bc     kernel32:KERNEL32.dll
+ 0002:0000770c       .idata$6                   000000018001a70c     vcruntime:VCRUNTIME140.dll
+ 0002:000078ac       .idata$6                   000000018001a8ac     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000078cc       .idata$6                   000000018001a8cc     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0002:000078ee       .idata$6                   000000018001a8ee     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:0000790e       .idata$6                   000000018001a90e     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00007930       .idata$6                   000000018001a930     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:00007950       .idata$6                   000000018001a950     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0003:000000c0       ?__proc_attached@@3HA      000000018001b0c0     MSVCRT:dll_dllmain.obj
+ 0003:000000f8       ?is_initialized_as_dll@@3_NA 000000018001b0f8     MSVCRT:utility.obj
+ 0003:000000f9       ?module_local_atexit_table_initialized@@3_NA 000000018001b0f9     MSVCRT:utility.obj
+ 0003:00000100       ?module_local_atexit_table@@3U_onexit_table_t@@A 000000018001b100     MSVCRT:utility.obj
+ 0003:00000118       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 000000018001b118     MSVCRT:utility.obj
+ 0003:0000013c       ?calls@?1??crypthead@@9@9  000000018001b13c     zip.obj
+ 0005:00000060       $R000000                   000000018001e060     zlib.res
